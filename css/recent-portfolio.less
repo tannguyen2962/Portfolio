@@ -1,0 +1,455 @@
+@color-black :#000;
+@color-blue :#4FDCC5;
+@color-white :#fff;
+@purple-color:#9774fa;
+
+.figcaption {
+    display: none;                                             
+    flex-direction: column;
+    z-index: 10;
+    top:50%;
+    left:50%;
+    position:absolute;
+    color:@color-white;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    object-fit: cover;
+
+    .text-2 {
+        a {
+           
+            text-decoration:none;
+            font-size: 3rem;
+           
+        }
+       }
+        .text-1 {
+            transition: transform 1.2s linear;
+        }
+        .text-3 {
+            font-size: 1.2rem;
+        }
+   
+    
+}
+
+.figure{ 
+    position: relative;
+    border-radius: 20px;
+    background-size: cover;
+    width: 100%;
+}
+
+.recent-portfolio{
+    padding:2rem;
+    h2 {
+        text-align:center;
+    }
+    
+    .custom{
+        display: flex;
+        justify-content: center;
+        
+    }
+}
+
+nav {
+    .nav-tabs {
+        .edit {
+            color:#000
+        }
+    }
+}
+
+//    
+.tab-content {
+    margin-top: 2rem;
+
+    .tab-pane {
+        .tab-list {
+           text-align:center;
+        }
+        .column1 {
+          text-align:center;               
+            .background {
+                .figure1 {     
+                    .figure();          
+                    height:23rem;
+                    background: url("../image/car1.png") center no-repeat;
+                    background-size: cover; 
+                    
+                }
+
+                .figure2 {
+                    .figure();
+                  
+                    height:16rem;                  
+                    background: url("../image/car2.png") center no-repeat;        
+                    background-size: cover;                 
+                }
+                .figure3 {
+                    .figure();
+                    height:18rem;                  
+                    background: url("../image/car8.png") center no-repeat;         
+                    background-size: cover;                 
+                }
+
+                .figure1:after {
+                    position:absolute;
+                    content:"";
+                    height:100%;
+                    left:0;
+                    right:0;
+                    width:100%;
+                }
+                .figure2:after {
+                    position:absolute;
+                    content:"";
+                    height:100%;
+                    left:0;
+                    right:0;
+                    width:100%;
+                }
+                .figure3:after {
+                    position:absolute;
+                    content:"";
+                    height:100%;
+                    left:0;
+                    right:0;
+                    width:100%;
+                }
+
+                .figure1:hover:after {                  
+                    width: 100%;
+                      height:100%;                 
+                      background-color: @color-blue;
+                      opacity: 0.8;          
+                  }
+
+                  .figure2:hover:after {                  
+                    width: 100%;
+                      height:100%;                 
+                      background-color: @color-blue;
+                      opacity: 0.8;                                      
+                  }
+                  .figure3:hover:after {                  
+                    width: 100%;
+                      height:100%;                 
+                      background-color: @color-blue;
+                      opacity: 0.8;                                      
+                  }
+
+                 .figure1:hover  {
+                    overflow: hidden;
+                    .figcaption {
+                        display: block;
+                        display: flex;
+                    }       
+                }
+                .figure2:hover  {
+                    overflow: hidden;
+                    .figcaption {
+                        display: block;
+                        display: flex;
+                    }       
+                }
+                .figure3:hover  {
+                    overflow: hidden;
+                    .figcaption {
+                        display: block;
+                        display: flex;
+                    }       
+                }
+                .text-2{
+                    visibility: inherit;
+                     display:inline-block;
+                     animation:backInLeft;
+                     animation-duration: 1s;
+                     a {
+                         color:@color-white;
+                     } 
+                  }
+                 
+               .text-1{  
+                   animation:wobble;  
+                 color:@color-white;
+                   display:inline-block;                                      
+                  animation-duration: 1s;                    
+                  }
+
+               .text-3{
+                 display:inline-block;
+                 animation:backInRight;
+                 animation-duration: 1s;
+                 a {
+                    text-decoration: none;
+                     color:@color-white;
+                 }
+            }
+          
+                    
+
+          }
+       
+            
+        }
+
+        .column2 {
+            text-align:center;               
+              .background {
+                  .figure4 {     
+                      .figure();          
+                      height:16rem;
+                      background: url("../image/g4.png") center no-repeat;      
+                      background-size: cover;      
+                      object-fit: cover;               
+                  }
+  
+                  .figure5 {
+                      .figure();
+                      height:16rem;                  
+                      background: url("../image/g5.png") center no-repeat;   
+                      background-size: cover;      
+                      object-fit: cover;                      
+                  }
+                  .figure6 {
+                      .figure();
+                      height:17rem;                  
+                      background: url("../image/g6.png") center no-repeat;    
+                      background-size: cover;    
+                      object-fit: cover;                     
+                  }
+  
+                  .figure4:after {
+                      position:absolute;
+                      content:"";
+                      height:100%;
+                      left:0;
+                      right:0;
+                      width:100%;
+                  }
+                  .figure5:after {
+                      position:absolute;
+                      content:"";
+                      height:100%;
+                      left:0;
+                      right:0;
+                      width:100%;
+                  }
+                  .figure6:after {
+                      position:absolute;
+                      content:"";
+                      height:100%;
+                      left:0;
+                      right:0;
+                      width:100%;
+                  }
+  
+                  .figure4:hover:after {                  
+                      width: 100%;
+                        height:100%;                 
+                        background-color: @color-blue;
+                        opacity: 0.8;          
+                    }
+  
+                    .figure5:hover:after {                  
+                      width: 100%;
+                        height:100%;                 
+                        background-color: @color-blue;
+                        opacity: 0.8;                                      
+                    }
+                    .figure6:hover:after {                  
+                      width: 100%;
+                        height:100%;                 
+                        background-color: @color-blue;
+                        opacity: 0.8;                                      
+                    }
+  
+                   .figure4:hover  {
+                      overflow: hidden;
+                      .figcaption {
+                          display: block;
+                          display: flex;
+                      }       
+                  }
+                  .figure5:hover  {
+                      overflow: hidden;
+                      .figcaption {
+                          display: block;
+                          display: flex;
+                      }       
+                  }
+                  .figure6:hover  {
+                      overflow: hidden;
+                      .figcaption {
+                          display: block;
+                          display: flex;
+                      }       
+                  }
+                  .text-2{
+                      visibility: inherit;
+                       display:inline-block;
+                       animation:backInLeft;
+                       animation-duration: 1s;
+                       a {
+                           color:@color-white;
+                       } 
+                    }
+                   
+                 .text-1{  
+                     animation:wobble;  
+                   color:@color-white;
+                     display:inline-block;                                      
+                    animation-duration: 1s;                    
+                    }
+  
+                 .text-3{
+                   display:inline-block;
+                   animation:backInRight;
+                   animation-duration: 1s;
+                   a {
+                       text-decoration: none;
+                       color:@color-white;
+                   }
+              }
+            
+                      
+  
+            }
+         
+              
+          }
+
+          .column3 {
+            text-align:center;               
+              .background {
+                  .figure7 {     
+                      .figure();          
+                      height:18rem;
+                      background: url("../image/g7.jpg") center no-repeat;        
+                      background-size: cover;             
+                  }
+  
+                  .figure8 {
+                      .figure();
+                      height:22rem;                  
+                      background: url("../image/g8.png") center no-repeat;    
+                      background-size: cover;                     
+                  }
+                  .figure9 {
+                      .figure();
+                      height:17rem;                  
+                      background: url("../image/g9.png") center no-repeat;      
+                      background-size: cover;                   
+                  }
+  
+                  .figure7:after {
+                      position:absolute;
+                      content:"";
+                      height:100%;
+                      left:0;
+                      right:0;
+                      width:100%;
+                  }
+                  .figure8:after {
+                      position:absolute;
+                      content:"";
+                      height:100%;
+                      left:0;
+                      right:0;
+                      width:100%;
+                  }
+                  .figure9:after {
+                      position:absolute;
+                      content:"";
+                      height:100%;
+                      left:0;
+                      right:0;
+                      width:100%;
+                  }
+  
+                  .figure7:hover:after {                  
+                      width: 100%;
+                        height:100%;                 
+                        background-color: @color-blue;
+                        opacity: 0.8;          
+                    }
+  
+                    .figure8:hover:after {                  
+                      width: 100%;
+                        height:100%;                 
+                        background-color: @color-blue;
+                        opacity: 0.8;                                      
+                    }
+                    .figure9:hover:after {                  
+                      width: 100%;
+                        height:100%;                 
+                        background-color: @color-blue;
+                        opacity: 0.8;                                      
+                    }
+  
+                   .figure7:hover  {
+                      overflow: hidden;
+                      .figcaption {
+                          display: block;
+                          display: flex;
+                      }       
+                  }
+                  .figure8:hover  {
+                      overflow: hidden;
+                      .figcaption {
+                          display: block;
+                          display: flex;
+                      }       
+                  }
+                  .figure9:hover  {
+                      overflow: hidden;
+                      .figcaption {
+                          display: block;
+                          display: flex;
+                      }       
+                  }
+                  .text-2{
+                      visibility: inherit;
+                       display:inline-block;
+                       animation:backInLeft;
+                       animation-duration: 1s;
+                       a {
+                           color:@color-white;
+                       } 
+                    }
+                   
+                 .text-1{  
+                     animation:wobble;  
+                   color:@color-white;
+                     display:inline-block;                                      
+                    animation-duration: 1s;                    
+                    }
+  
+                 .text-3{
+                    
+                   display:inline-block;
+                   animation:backInRight;
+                   animation-duration: 1s;
+                   a {
+                    text-decoration: none;
+                   }
+                   .button {
+                       background-color:transparent;
+                       font-size:1rem;
+                       color:#fff;
+                      
+                   }
+                  
+                   
+              }
+            
+                      
+  
+            }
+         
+              
+          }
+
+    }
+}

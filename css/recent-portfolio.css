@@ -1,0 +1,396 @@
+.figcaption {
+  display: none;
+  flex-direction: column;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  color: #fff;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  object-fit: cover;
+}
+.figcaption .text-2 a {
+  text-decoration: none;
+  font-size: 3rem;
+}
+.figcaption .text-1 {
+  transition: transform 1.2s linear;
+}
+.figcaption .text-3 {
+  font-size: 1.2rem;
+}
+.figure {
+  position: relative;
+  border-radius: 20px;
+  background-size: cover;
+  width: 100%;
+}
+.recent-portfolio {
+  padding: 2rem;
+}
+.recent-portfolio h2 {
+  text-align: center;
+}
+.recent-portfolio .custom {
+  display: flex;
+  justify-content: center;
+}
+nav .nav-tabs .edit {
+  color: #000;
+}
+.tab-content {
+  margin-top: 2rem;
+}
+.tab-content .tab-pane .tab-list {
+  text-align: center;
+}
+.tab-content .tab-pane .column1 {
+  text-align: center;
+}
+.tab-content .tab-pane .column1 .background .figure1 {
+  position: relative;
+  border-radius: 20px;
+  width: 100%;
+  height: 23rem;
+  background: url("../image/car1.png") center no-repeat;
+  background-size: cover;
+}
+.tab-content .tab-pane .column1 .background .figure2 {
+  position: relative;
+  border-radius: 20px;
+  width: 100%;
+  height: 16rem;
+  background: url("../image/car2.png") center no-repeat;
+  background-size: cover;
+}
+.tab-content .tab-pane .column1 .background .figure3 {
+  position: relative;
+  border-radius: 20px;
+  width: 100%;
+  height: 18rem;
+  background: url("../image/car8.png") center no-repeat;
+  background-size: cover;
+}
+.tab-content .tab-pane .column1 .background .figure1:after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+.tab-content .tab-pane .column1 .background .figure2:after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+.tab-content .tab-pane .column1 .background .figure3:after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+.tab-content .tab-pane .column1 .background .figure1:hover:after {
+  width: 100%;
+  height: 100%;
+  background-color: #4FDCC5;
+  opacity: 0.8;
+}
+.tab-content .tab-pane .column1 .background .figure2:hover:after {
+  width: 100%;
+  height: 100%;
+  background-color: #4FDCC5;
+  opacity: 0.8;
+}
+.tab-content .tab-pane .column1 .background .figure3:hover:after {
+  width: 100%;
+  height: 100%;
+  background-color: #4FDCC5;
+  opacity: 0.8;
+}
+.tab-content .tab-pane .column1 .background .figure1:hover {
+  overflow: hidden;
+}
+.tab-content .tab-pane .column1 .background .figure1:hover .figcaption {
+  display: block;
+  display: flex;
+}
+.tab-content .tab-pane .column1 .background .figure2:hover {
+  overflow: hidden;
+}
+.tab-content .tab-pane .column1 .background .figure2:hover .figcaption {
+  display: block;
+  display: flex;
+}
+.tab-content .tab-pane .column1 .background .figure3:hover {
+  overflow: hidden;
+}
+.tab-content .tab-pane .column1 .background .figure3:hover .figcaption {
+  display: block;
+  display: flex;
+}
+.tab-content .tab-pane .column1 .background .text-2 {
+  visibility: inherit;
+  display: inline-block;
+  animation: backInLeft;
+  animation-duration: 1s;
+}
+.tab-content .tab-pane .column1 .background .text-2 a {
+  color: #fff;
+}
+.tab-content .tab-pane .column1 .background .text-1 {
+  animation: wobble;
+  color: #fff;
+  display: inline-block;
+  animation-duration: 1s;
+}
+.tab-content .tab-pane .column1 .background .text-3 {
+  display: inline-block;
+  animation: backInRight;
+  animation-duration: 1s;
+}
+.tab-content .tab-pane .column1 .background .text-3 a {
+  text-decoration: none;
+  color: #fff;
+}
+.tab-content .tab-pane .column2 {
+  text-align: center;
+}
+.tab-content .tab-pane .column2 .background .figure4 {
+  position: relative;
+  border-radius: 20px;
+  width: 100%;
+  height: 16rem;
+  background: url("../image/g4.png") center no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+.tab-content .tab-pane .column2 .background .figure5 {
+  position: relative;
+  border-radius: 20px;
+  width: 100%;
+  height: 16rem;
+  background: url("../image/g5.png") center no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+.tab-content .tab-pane .column2 .background .figure6 {
+  position: relative;
+  border-radius: 20px;
+  width: 100%;
+  height: 17rem;
+  background: url("../image/g6.png") center no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+.tab-content .tab-pane .column2 .background .figure4:after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+.tab-content .tab-pane .column2 .background .figure5:after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+.tab-content .tab-pane .column2 .background .figure6:after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+.tab-content .tab-pane .column2 .background .figure4:hover:after {
+  width: 100%;
+  height: 100%;
+  background-color: #4FDCC5;
+  opacity: 0.8;
+}
+.tab-content .tab-pane .column2 .background .figure5:hover:after {
+  width: 100%;
+  height: 100%;
+  background-color: #4FDCC5;
+  opacity: 0.8;
+}
+.tab-content .tab-pane .column2 .background .figure6:hover:after {
+  width: 100%;
+  height: 100%;
+  background-color: #4FDCC5;
+  opacity: 0.8;
+}
+.tab-content .tab-pane .column2 .background .figure4:hover {
+  overflow: hidden;
+}
+.tab-content .tab-pane .column2 .background .figure4:hover .figcaption {
+  display: block;
+  display: flex;
+}
+.tab-content .tab-pane .column2 .background .figure5:hover {
+  overflow: hidden;
+}
+.tab-content .tab-pane .column2 .background .figure5:hover .figcaption {
+  display: block;
+  display: flex;
+}
+.tab-content .tab-pane .column2 .background .figure6:hover {
+  overflow: hidden;
+}
+.tab-content .tab-pane .column2 .background .figure6:hover .figcaption {
+  display: block;
+  display: flex;
+}
+.tab-content .tab-pane .column2 .background .text-2 {
+  visibility: inherit;
+  display: inline-block;
+  animation: backInLeft;
+  animation-duration: 1s;
+}
+.tab-content .tab-pane .column2 .background .text-2 a {
+  color: #fff;
+}
+.tab-content .tab-pane .column2 .background .text-1 {
+  animation: wobble;
+  color: #fff;
+  display: inline-block;
+  animation-duration: 1s;
+}
+.tab-content .tab-pane .column2 .background .text-3 {
+  display: inline-block;
+  animation: backInRight;
+  animation-duration: 1s;
+}
+.tab-content .tab-pane .column2 .background .text-3 a {
+  text-decoration: none;
+  color: #fff;
+}
+.tab-content .tab-pane .column3 {
+  text-align: center;
+}
+.tab-content .tab-pane .column3 .background .figure7 {
+  position: relative;
+  border-radius: 20px;
+  width: 100%;
+  height: 18rem;
+  background: url("../image/g7.jpg") center no-repeat;
+  background-size: cover;
+}
+.tab-content .tab-pane .column3 .background .figure8 {
+  position: relative;
+  border-radius: 20px;
+  width: 100%;
+  height: 22rem;
+  background: url("../image/g8.png") center no-repeat;
+  background-size: cover;
+}
+.tab-content .tab-pane .column3 .background .figure9 {
+  position: relative;
+  border-radius: 20px;
+  width: 100%;
+  height: 17rem;
+  background: url("../image/g9.png") center no-repeat;
+  background-size: cover;
+}
+.tab-content .tab-pane .column3 .background .figure7:after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+.tab-content .tab-pane .column3 .background .figure8:after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+.tab-content .tab-pane .column3 .background .figure9:after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+.tab-content .tab-pane .column3 .background .figure7:hover:after {
+  width: 100%;
+  height: 100%;
+  background-color: #4FDCC5;
+  opacity: 0.8;
+}
+.tab-content .tab-pane .column3 .background .figure8:hover:after {
+  width: 100%;
+  height: 100%;
+  background-color: #4FDCC5;
+  opacity: 0.8;
+}
+.tab-content .tab-pane .column3 .background .figure9:hover:after {
+  width: 100%;
+  height: 100%;
+  background-color: #4FDCC5;
+  opacity: 0.8;
+}
+.tab-content .tab-pane .column3 .background .figure7:hover {
+  overflow: hidden;
+}
+.tab-content .tab-pane .column3 .background .figure7:hover .figcaption {
+  display: block;
+  display: flex;
+}
+.tab-content .tab-pane .column3 .background .figure8:hover {
+  overflow: hidden;
+}
+.tab-content .tab-pane .column3 .background .figure8:hover .figcaption {
+  display: block;
+  display: flex;
+}
+.tab-content .tab-pane .column3 .background .figure9:hover {
+  overflow: hidden;
+}
+.tab-content .tab-pane .column3 .background .figure9:hover .figcaption {
+  display: block;
+  display: flex;
+}
+.tab-content .tab-pane .column3 .background .text-2 {
+  visibility: inherit;
+  display: inline-block;
+  animation: backInLeft;
+  animation-duration: 1s;
+}
+.tab-content .tab-pane .column3 .background .text-2 a {
+  color: #fff;
+}
+.tab-content .tab-pane .column3 .background .text-1 {
+  animation: wobble;
+  color: #fff;
+  display: inline-block;
+  animation-duration: 1s;
+}
+.tab-content .tab-pane .column3 .background .text-3 {
+  display: inline-block;
+  animation: backInRight;
+  animation-duration: 1s;
+}
+.tab-content .tab-pane .column3 .background .text-3 a {
+  text-decoration: none;
+}
+.tab-content .tab-pane .column3 .background .text-3 .button {
+  background-color: transparent;
+  font-size: 1rem;
+  color: #fff;
+}

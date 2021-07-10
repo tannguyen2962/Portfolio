@@ -1,0 +1,149 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@media (max-width: 1025px) and (min-width: 768px) {
+  .portfolio .navbar {
+    top: -3rem;
+    height: auto;
+  }
+  .portfolio .i-do .column1 {
+    margin: 1rem;
+  }
+  .portfolio .about-me {
+    padding: 5rem;
+  }
+  .portfolio .about-me .about-me-left {
+    padding: 2rem;
+  }
+  .portfolio .about-me .about-me-right ul {
+    height: 3rem;
+    flex-wrap: wrap;
+  }
+  .portfolio .education-experience {
+    padding: 1rem;
+  }
+  .portfolio .education-experience .education {
+    padding: 5rem;
+  }
+  .portfolio .education-experience .education .box {
+    padding: 1rem;
+    height: 14rem;
+  }
+  .portfolio .education-experience .experience {
+    padding: 5rem;
+  }
+  .portfolio .education-experience .experience .box {
+    padding: 1rem;
+    height: 14rem;
+  }
+  .portfolio .slider .img-list img {
+    height: 15rem;
+  }
+  .portfolio .pricing {
+    padding: 5rem;
+  }
+  .portfolio .pricing .pricing-time .text {
+    padding: 1rem;
+  }
+  .portfolio .contact-me {
+    padding: 3rem;
+  }
+  .portfolio .contact-me .contact {
+    width: 14.75rem;
+    height: 18rem;
+  }
+}
+@media (max-width: 767px) {
+  .portfolio .navbar .navbar-nav .nav-item:hover .link-text {
+    opacity: 0;
+  }
+  .portfolio .navbar .navbar-nav .nav-item .nav-link {
+    height: 4rem;
+  }
+  .portfolio .navbar .navbar-nav .nav-item .nav-link img {
+    width: 2rem;
+    height: 2rem;
+  }
+  .portfolio .content .picture {
+    border: unset;
+  }
+  .portfolio .content .picture img {
+    width: 18rem;
+    height: 18rem;
+  }
+  .portfolio .spin {
+    width: 1rem;
+    height: 1rem;
+    position: fixed;
+    top: 10%;
+    left: 3%;
+    z-index: 999;
+  }
+  .portfolio .spin img {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .portfolio .about-me {
+    padding: 1rem;
+  }
+  .portfolio .about-me .about-me-left {
+    padding: 2rem;
+  }
+  .portfolio .about-me .about-me-right ul {
+    height: 10rem;
+    flex-wrap: wrap;
+  }
+  .portfolio .i-do {
+    padding: 2rem;
+  }
+  .portfolio .i-do .column1 .card {
+    margin: 1rem 0;
+  }
+  .portfolio .education-experience {
+    padding: 1rem;
+  }
+  .portfolio .education-experience .education {
+    padding: 3rem;
+  }
+  .portfolio .education-experience .education .box {
+    padding: 1rem;
+    height: 20rem;
+  }
+  .portfolio .education-experience .experience {
+    padding: 3rem;
+  }
+  .portfolio .education-experience .experience .box {
+    padding: 1rem;
+    height: 20rem;
+  }
+  .portfolio .recent-portfolio {
+    padding: 3rem;
+  }
+  .portfolio .pricing {
+    padding: 3rem;
+  }
+  .portfolio .pricing .pricing-time .text {
+    padding: 1rem;
+  }
+  .portfolio .slider .imglist img {
+    padding: 0;
+    height: 10rem;
+  }
+  .portfolio .contact-me {
+    padding: 3rem;
+  }
+  .portfolio .contact-me .contact {
+    width: 10.75rem;
+    height: 16rem;
+  }
+  .portfolio .wrapper {
+    margin: 0;
+  }
+  .portfolio .right {
+    top: 10%;
+    right: 8%;
+  }
+}

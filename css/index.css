@@ -1,0 +1,452 @@
+html,
+body {
+  margin: 0 ;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+.portfolio .navbar {
+  position: fixed;
+  top: 1rem;
+  bottom: 0;
+  left: 0;
+  width: 10rem;
+  height: 100vh;
+  z-index: 999;
+  background-color: transparent;
+}
+.portfolio .navbar .navbar-nav {
+  width: 10rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio .navbar .navbar-nav .nav-item:hover .nav-link .link-text {
+  visibility: visible;
+}
+.portfolio .navbar .navbar-nav .nav-item .nav-link {
+  display: flex;
+  height: 5rem;
+  align-items: center;
+}
+.portfolio .navbar .navbar-nav .nav-item .nav-link .link-text {
+  font-size: 2rem;
+  color: white;
+  width: 5rem;
+  margin-left: 1rem;
+  visibility: hidden;
+}
+.portfolio .navbar .navbar-nav .nav-item .nav-link img {
+  width: 3rem;
+  height: 3rem;
+}
+.portfolio .spin {
+  width: 1rem;
+  height: 1rem;
+  position: fixed;
+  top: 7%;
+  left: 1%;
+  z-index: 999;
+}
+.portfolio .spin .fas {
+  font-size: 2rem;
+}
+.portfolio .spin img {
+  width: 3rem;
+  height: 3rem;
+}
+.portfolio .right {
+  z-index: 999;
+  width: 1rem;
+  height: 1rem;
+  position: fixed;
+  top: 7%;
+  right: 4%;
+  animation: pulse 2s infinite;
+}
+.portfolio .right .fas {
+  font-size: 2rem;
+}
+.portfolio .right img {
+  width: 3rem;
+  height: 3rem;
+}
+.portfolio .content {
+  color: #000;
+  z-index: -999;
+  overflow: hidden;
+  padding: 7rem;
+  margin-top: 7rem;
+}
+.portfolio .content span {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+.portfolio .content span img {
+  width: 8rem;
+  height: 5rem;
+}
+.portfolio .content .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 1;
+}
+.portfolio .content .info .personal-info-1 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.portfolio .content .info .personal-info-1 li {
+  line-height: 1.7;
+}
+.portfolio .content .info .personal-info-1 li:hover {
+  color: #4FDCC5;
+}
+.portfolio .content .info .personal-info-1 h3 {
+  color: #fff;
+  padding: 0.5rem;
+  background-color: #4FDCC5;
+  font-weight: 600;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 0px;
+}
+.portfolio .content .info .personal-info-1 h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.portfolio .content .info .personal-info-1 h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.portfolio .content .info .personal-info-1 a {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.1rem;
+  margin-left: 0.5rem;
+  text-decoration: none;
+  color: #000;
+}
+.portfolio .content .info .personal-info-1 .link {
+  display: flex;
+}
+.portfolio .content .info .personal-info-1 .link a {
+  padding: 0.7rem 1rem;
+}
+.portfolio .content .info .personal-info-1 .link a:hover {
+  color: #4FDCC5;
+  background-color: #000;
+  border-radius: 2rem;
+  transition: 0.6s;
+}
+.portfolio .content .picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 23rem;
+  height: 23rem;
+  border: 1.5rem solid rgba(22, 22, 22, 0.267);
+  margin: 0 auto;
+  border-radius: 50%;
+}
+.portfolio .content .picture img {
+  display: flex;
+  width: 20rem;
+  height: 20rem;
+  border: 1.2rem solid rgba(0, 0, 0, 0.089);
+  margin: 0 auto;
+  border-radius: 50%;
+}
+.portfolio .about-me {
+  padding: 10rem;
+}
+.portfolio .about-me .about-me-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio .about-me .about-me-left img {
+  width: 100%;
+}
+.portfolio .about-me .about-me-right {
+  line-height: 2;
+  opacity: 1;
+  padding: 3rem;
+}
+.portfolio .about-me .about-me-right h2 {
+  font-weight: 600;
+}
+.portfolio .about-me .about-me-right ul {
+  margin: 0;
+  padding: 1rem;
+  padding-left: 0;
+  padding-top: 0;
+  display: flex;
+  list-style: none;
+}
+.portfolio .about-me .about-me-right ul span {
+  padding: 0.6rem 0.8rem;
+  border: 1px solid;
+  margin: 0 0.5rem;
+  border-radius: 10px;
+}
+.portfolio .about-me .about-me-right .edit {
+  margin-top: 2rem;
+  width: 11rem;
+}
+.i-do {
+  margin-top: 5rem;
+  opacity: 1;
+  height: auto;
+}
+.i-do span {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.i-do .column1 {
+  padding: 0 2rem;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 0 1rem;
+}
+.i-do .column1 .card {
+  height: 100%;
+  animation-name: animate__fadeInBottomRight;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.i-do .column1 h2 {
+  margin: 1.5rem 0rem;
+}
+.i-do .color-1 {
+  color: #9774fa;
+}
+.i-do .color-2 {
+  color: #ed7256;
+}
+.i-do .color-3 {
+  color: #2796e2;
+}
+.slider {
+  text-align: center;
+}
+.slider h1 {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.slider .imglist {
+  transition: 1s;
+  width: 100%;
+}
+.slider .imglist a {
+  border-radius: 20px;
+}
+.slider .imglist img {
+  width: 100%;
+  padding: 2rem;
+  border-radius: 20px;
+  height: 20rem;
+}
+.education-experience {
+  opacity: 0.9;
+  padding: 0 10rem 1rem;
+}
+.education-experience .education {
+  padding: 2rem;
+}
+.education-experience .education h2 {
+  padding-bottom: 2rem;
+  font-weight: bold;
+}
+.education-experience .education .box {
+  height: 15rem;
+  margin-bottom: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 2rem;
+}
+.education-experience .education .box h3 {
+  font-weight: 600;
+}
+.education-experience .education .box i {
+  color: #4FDCC5;
+}
+.education-experience .education .box h4 {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #4FDCC5;
+  font-weight: 600;
+}
+.education-experience .experience {
+  padding: 2rem;
+}
+.education-experience .experience h2 {
+  padding-bottom: 2rem;
+  font-weight: bold;
+}
+.education-experience .experience .box {
+  height: 15rem;
+  margin-bottom: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 2rem;
+}
+.education-experience .experience .box h3 {
+  font-weight: 600;
+}
+.education-experience .experience .box i {
+  color: #4FDCC5;
+}
+.education-experience .experience .box h4 {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #4FDCC5;
+  font-weight: 600;
+}
+.education-experience .experience ul {
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0;
+}
+.education-experience .experience li {
+  margin-left: 1.5rem;
+}
+.education-experience .fancybox {
+  text-align: center;
+}
+.education-experience .pricing {
+  text-align: center;
+  padding: 6rem;
+}
+.education-experience .pricing .pricing-time {
+  padding: 1rem;
+}
+.education-experience .pricing .pricing-time .text {
+  padding: 3rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  text-align: center;
+}
+.education-experience .pricing .pricing-time .text span {
+  font-size: 2.5rem;
+  margin: 2.5rem 0;
+}
+.education-experience .pricing .pricing-time .text i {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+.education-experience .pricing .pricing-time .text p {
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+}
+.education-experience .pricing .pricing-time .text button {
+  margin-top: 1rem;
+}
+.education-experience .contact-me {
+  padding: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.education-experience .contact-me .contact {
+  position: relative;
+  width: 18.75rem;
+  height: 25rem;
+  background-color: #fff;
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+  box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
+  transition: 1s;
+}
+.education-experience .contact-me .contact .details {
+  background-color: #242121;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 1.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.education-experience .contact-me .contact .details .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.education-experience .contact-me .contact .details .container h2 {
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.education-experience .contact-me .contact .details .container h2 span {
+  color: #ed7256;
+  font-size: 0.8rem;
+}
+.education-experience .contact-me .contact .details .container .social-icon {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 10px;
+}
+.education-experience .contact-me .contact .details .container .social-icon a {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  background: transparent;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  font-size: 1rem;
+  transition: 0.2s;
+}
+.education-experience .contact-me .contact .details .container .social-icon a:hover {
+  background-color: #2796e2;
+  border-radius: 20px;
+}
+.education-experience .contact-me .contact .imgBox {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transform-origin: left;
+  transform-style: preserve-3d;
+  background-color: #000;
+  transition: 1s;
+  box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
+}
+.education-experience .contact-me .contact .imgBox img {
+  transform-style: preserve-3d;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  backface-visibility: hidden;
+}
+.education-experience .contact-me .contact .imgBox img:nth-child(2) {
+  transform: rotateY(180deg);
+}
+.education-experience .contact-me .contact:hover {
+  transform: translateX(50%);
+}
+.education-experience .contact-me .contact:hover .imgBox {
+  transform: rotateY(-180deg);
+}
